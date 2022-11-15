@@ -11,7 +11,7 @@ const Rent = () => {
             <span className=" bg-gradient-to-r from-[#A02279] to-[#A02279] bg-clip-text text-transparent">
               Place
             </span>{" "}
-            away from <br className="sm:hidden lg:flex" />
+            away from <br className="hidden lg:flex" />
             <span className=" bg-gradient-to-r from-[#A02279] to-[#A02279] bg-clip-text text-transparent">
               {" "}
               Home
@@ -23,19 +23,19 @@ const Rent = () => {
           </p>
 
           <p className="pt-9 lg:pt-12 text-xl lg:text-2xl leading-8 lg:leading-9  flex justify-start ">
-            we provide you access to luxury and affordable houses <br /> in the
+            we provide you access to luxury and affordable houses in the
             metaverse, get a chance to turn your{" "}
-            <br className="sm:hidden lg:flex" /> imagination to reality at your
+            <br className="hidden lg:flex" /> imagination to reality at your
             comfort zone
           </p>
-          <div className="flex flex-row mt-12 sm:px-4 ">
+          <div className="flex flex-col lg:flex-row mt-12 sm:px-4 ">
             <input
               type="text"
-              className="py-4 px-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-lg focus:ring-[#A02279] focus:border-[#A02279] block w-full  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#A02279] dark:focus:border-[#A02279]"
+              className="w-full lg:w-[390px]  h-[54px] py-4 px-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg lg:rounded-l-lg focus:ring-[#A02279] focus:border-[#A02279] block  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#A02279] dark:focus:border-[#A02279]"
               placeholder="Search for location"
             />
 
-            <button className="text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-r-lg py-4  px-20 text-center text-sm ">
+            <button className="flex justify-center items-center w-[180px] mt-1 lg:w-[230px] h-[54px] text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-lg  lg:rounded-r-lg py-3 lg:py-4 px-16 lg:px-20 text-center text-[12px] lg:text-sm ">
               Search
             </button>
           </div>
