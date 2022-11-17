@@ -22,7 +22,7 @@ const Header = ({ setonnectWallet }) => {
           />
         </div>
         <div>
-          <ul className="hidden  lg:flex-row  gap-12 lg:flex ">
+          <ul className="hidden  md:flex-row  gap-12 lg:flex ">
             <li>
               <Link to="/">Home</Link>
             </li>

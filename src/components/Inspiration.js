@@ -14,7 +14,7 @@ const Inspiration = () => {
       <p className="text-center font-bold text-5xl text-black">
         Inspiration for your next adventure
       </p>
-      <div className="mt-10 mx-auto flex-row flex flex-wrap gap-2 align-middle items-center justify-center lg:justify-start ">
+      <div className="mt-10 mx-auto flex-row flex flex-wrap gap-2 align-middle items-center justify-center  ">
         <FeatureCard frame={Frame1} />
         <FeatureCard frame={Frame2} />
         <FeatureCard frame={Frame3} />
