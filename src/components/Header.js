@@ -22,7 +22,7 @@ const Header = ({ setonnectWallet }) => {
           />
         </div>
         <div>
-          <ul className="hidden  md:flex-row  gap-12 lg:flex ">
+          <ul className="hidden  md:flex-row  gap-12 md:flex ">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -39,7 +39,7 @@ const Header = ({ setonnectWallet }) => {
         </div>
         <div className="flex flex-row-reverse justify-around sm:pt-2">
           <button
-            className="hidden lg:flex text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-lg pt-2 pb-2 pl-5 pr-5 lg:pt-3  lg:pb-3 lg:pl-6 lg:pr-6 text-center text-sm "
+            className="hidden md:flex text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-lg pt-2 pb-2 pl-5 pr-5 lg:pt-3  lg:pb-3 lg:pl-6 lg:pr-6 text-center text-sm "
             onClick={() => setonnectWallet(true)}
           >
             Connect Wallet
@@ -48,7 +48,7 @@ const Header = ({ setonnectWallet }) => {
             color="#A02279"
             fontSize={27}
             onClick={() => setToggleMenu(true)}
-            className="lg:hidden cursor-pointer flex justify-center align-middle text-center w-7 h-7  lg:w-10 lg:h-9"
+            className="md:hidden cursor-pointer flex justify-center align-middle text-center w-7 h-7  lg:w-10 lg:h-9"
           />
         </div>
       </div>
