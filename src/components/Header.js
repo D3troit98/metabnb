@@ -7,9 +7,9 @@ import { AiOutlineClose } from "react-icons/ai";
 const Header = ({ setonnectWallet }) => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className=" flex flex-col lg:flex-row mt-11 px-20 lg:px-24 justify-between align-middle text-center bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF] relative">
-      <div className="flex flex-row items-center justify-between">
-        <div className="flex flex-row justify-center ">
+    <div className=" flex flex-col lg:flex-row mt-11 px-20 lg:px-24   text-center bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF] relative">
+      <div className="flex  justify-between items-center w-full">
+        <div className="flex flex-row ">
           <img
             src={HomeLogo}
             alt="home"
@@ -21,24 +21,25 @@ const Header = ({ setonnectWallet }) => {
             className="object-contain w-36  lg:w-44 lg:h-8"
           />
         </div>
-
-        <ul className="hidden  lg:flex-row  gap-12 lg:flex ">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/placetoStay">Place to stay</Link>
-          </li>
-          <li>
-            <Link to="/">NFTs</Link>
-          </li>
-          <li>
-            <Link to="/">Community</Link>
-          </li>
-        </ul>
+        <div>
+          <ul className="hidden  lg:flex-row  gap-12 lg:flex ">
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/placetoStay">Place to stay</Link>
+            </li>
+            <li>
+              <Link to="/">NFTs</Link>
+            </li>
+            <li>
+              <Link to="/">Community</Link>
+            </li>
+          </ul>
+        </div>
         <div className="flex flex-row-reverse justify-around sm:pt-2">
           <button
-            className=" hidden lg:flex text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-lg pt-2 pb-2 pl-5 pr-5 lg:pt-3  lg:pb-3 lg:pl-6 lg:pr-6 text-center text-sm "
+            className="hidden lg:flex text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-lg pt-2 pb-2 pl-5 pr-5 lg:pt-3  lg:pb-3 lg:pl-6 lg:pr-6 text-center text-sm "
             onClick={() => setonnectWallet(true)}
           >
             Connect Wallet

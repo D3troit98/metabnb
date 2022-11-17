@@ -177,7 +177,7 @@ const PlaceToStay = () => {
             </div>
           </div>
 
-          <div className="mt-10 flex-row flex flex-wrap gap-2 align-middle justify-start mb-[92px]">
+          <div className="mt-10 flex-row flex flex-wrap gap-2 align-middle items-center justify-center lg:justify-start  mb-[80px] lg:mb-[92px]">
             <FeatureCard frame={Frame1} />
             <FeatureCard frame={Frame2} />
             <FeatureCard frame={Frame3} />

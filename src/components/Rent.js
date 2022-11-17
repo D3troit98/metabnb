@@ -31,11 +31,11 @@ const Rent = () => {
           <div className="flex flex-col lg:flex-row mt-12 sm:px-4 ">
             <input
               type="text"
-              className="w-full lg:w-[390px]  h-[54px] py-4 px-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg lg:rounded-l-lg focus:ring-[#A02279] focus:border-[#A02279] block  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#A02279] dark:focus:border-[#A02279]"
+              className="w-full lg:w-[390px]  h-[54px] py-4 px-3 bg-gray-50 border border-[#A02279] text-gray-900 text-sm rounded-lg lg:rounded-l-lg focus:ring-[#A02279] focus:border-[#A02279] block"
               placeholder="Search for location"
             />
 
-            <button className="flex justify-center items-center w-[180px] mt-1 lg:w-[230px] h-[54px] text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-lg  lg:rounded-r-lg py-3 lg:py-4 px-16 lg:px-20 text-center text-[12px] lg:text-sm ">
+            <button className="flex justify-center items-center w-full mt-1  lg:w-[230px] h-[54px] text-white bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-lg  lg:rounded-r-lg py-3 lg:py-4 px-16 lg:px-20 text-center text-[12px] lg:text-sm ">
               Search
             </button>
           </div>

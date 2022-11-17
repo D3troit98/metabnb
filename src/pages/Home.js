@@ -15,7 +15,7 @@ const Home = () => {
       className={`font-red-rose bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF]`}
     >
       <div className={`h-full`}>
-        <div className={`h-full  ${connectWallet && opacity}`}>
+        <div className={`h-full ${connectWallet && opacity}`}>
           <Header setonnectWallet={setonnectWallet} />
           <Rent />
         </div>

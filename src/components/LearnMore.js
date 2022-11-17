@@ -10,9 +10,10 @@ const LearnMore = () => {
           </p>
           <p className="mt-[30px] lg:mt-[35px] flex flex-wrap text-[16px] lg:text-[18px] leading-[30px] lg:leading-[35px] bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF] bg-clip-text text-transparent ">
             Discover our NFT gift cards collection. Loyal
-            <br /> customers gets amazing gift cards which are <br /> traded as
-            NFTs. These NFTs gives our cutomer
-            <br />
+            <br className="hidden lg:flex" /> custumers gets amazing gift cards
+            which are <br className="hidden lg:flex" /> traded as NFTs. These
+            NFTs gives our cutomer
+            <br className="hidden lg:flex" />
             access to loads of our exclusive services.
           </p>
           <button className=" bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF] rounded-lg py-3 px-8 text-center text-sm w-[156px] h-[48px] flex justify-center align-middle mt-[57px]">
